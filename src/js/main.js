@@ -28,6 +28,7 @@ const createUser = () => {
 
     //const hash = bcrypt.hashSync(password,bcrypt.genSaltSync(10));
     //console.log(hash)
+    // bcrypt didnt work
     let createdUser = new User(fullName, email, password);
     let existsUserData = userArr.find(e => e.email === email);
     if (existsUserData) {
