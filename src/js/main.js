@@ -116,7 +116,6 @@ const getAllCustomers = () => {
         tBody.append(row);
     })
 }
-
 /*Customer*/
 
 
