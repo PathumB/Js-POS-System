@@ -2,6 +2,7 @@ let userArr = [];
 let customerArr = [];
 
 // json placeholder => GET,PUT,POST,(Delete)
+// ..test
 class User {
     constructor(fullName, email, password) {
         this.fullName = fullName;
